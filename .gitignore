@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Результаты регистраций
+accounts.jsonl
+accounts.json
+accounts_failed.jsonl
+*.log
+
+# Локальный конфиг с реальными credentials
+config/config.yaml
+
+# Outlook credentials (если используешь — кладёшь сюда, никогда не коммитится)
+outlook_accounts_real.py
+
+# Локальные данные
+chromedriver*
+*.crdownload
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Кэш переводов
+translate_cache.json
+
+# Whitelist
+whitelist.txt
+whitelist_*.txt
+
+# Маркер установленных зависимостей
+.deps_installed
+
+# Скриншоты дебага
+*.png
+*.jpg
